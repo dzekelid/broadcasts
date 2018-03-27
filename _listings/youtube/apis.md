@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Stack
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/broadcast/master/_listings/youtube/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Youtube
@@ -23,10 +23,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: ""
   baseURL: https://www.googleapis.com//youtube/v1
-  tags: Broadcast
+  tags: Broadcasts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/broadcast/master/_listings/youtube/livebroadcasts-transition-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-delete.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
