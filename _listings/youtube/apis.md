@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-transition-post.md
-- name: Youtube Get Live Broadcasts
-  description: Returns a list of YouTube broadcasts that match the API request parameters.
+- name: Youtube Parameters Live Broadcasts
+  description: Parameters livebroadcasts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Broadcasts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
