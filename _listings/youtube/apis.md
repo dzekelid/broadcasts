@@ -27,17 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-transition-post.md
-- name: Youtube Parameters Live Broadcasts Control
-  description: Parameters livebroadcasts control
+- name: Youtube Add Live Broadcasts Control
+  description: Controls the settings for a slate that can be displayed in the broadcast
+    stream.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Broadcasts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-control-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-control-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-control-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-control-post-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
