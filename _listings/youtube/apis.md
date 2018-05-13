@@ -27,15 +27,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-transition-post.md
-- name: Youtube Add Live Broadcasts
-  description: Creates a broadcast.
+- name: Youtube Put Live Broadcasts
+  description: Updates a broadcast. For example, you could modify the broadcast settings
+    defined in the liveBroadcast resource's contentDetails object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Broadcasts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-put.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
