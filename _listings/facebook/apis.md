@@ -1,5 +1,6 @@
 ---
 name: Facebook
+x-slug: facebook
 description: Facebook is an online social networking service that allows its users
   to connect with friends and family as well as make new connections. It provides
   its users with the ability to create a profile, update information, add images,
@@ -8,34 +9,36 @@ description: Facebook is an online social networking service that allows its use
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Social Network
-- Social API
-- Social
-- Road Map
-- Payment API
-- Partners
-- My API Stack
-- Issues Example
-- Issues
-- Indie EdTech Data Jam
-- Facebook Stack
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Broadcasts
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Facebook Get User Veo Broadcasts
+  x-api-slug: facebook
   description: User Video Broadcasts
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+  humanURL: https://facebook.com
+  baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/video_broadcasts
+  tags: User,Veo,Broadcasts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/facebook/123userid125video-broadcasts-get-openapi.md
+- name: Facebook
+  x-api-slug: facebook
+  description: Facebook is an online social networking service that allows its users
+    to connect with friends and family as well as make new connections. It provides
+    its users with the ability to create a profile, update information, add images,
+    send friend requests, and accept requests from other users. Its features include
+    status update, photo tagging and sharing, and more.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
   baseURL: https://graph.facebook.com//v3.0
   tags: Broadcasts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/facebook/#123;user-id-#125;-video-broadcasts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/facebook/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
