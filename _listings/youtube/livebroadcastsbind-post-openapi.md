@@ -91,16 +91,6 @@ paths:
           description: OK
       tags:
       - Livebroadcasts
-    parameters:
-      summary: Parameters Live Broadcasts
-      description: Parameters livebroadcasts
-      operationId: parametersLivebroadcasts
-      x-api-path-slug: livebroadcasts-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
     post:
       summary: Add Live Broadcasts
       description: Creates a broadcast.
@@ -153,17 +143,6 @@ paths:
       tags:
       - Livebroadcasts
   /liveBroadcasts/bind:
-    parameters:
-      summary: Parameters Live Broadcasts Bind
-      description: Parameters livebroadcasts bind
-      operationId: parametersLivebroadcastsBind
-      x-api-path-slug: livebroadcastsbind-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
-      - Bind
     post:
       summary: Add Live Broadcasts Bind
       description: Binds a YouTube broadcast to a stream or removes an existing binding

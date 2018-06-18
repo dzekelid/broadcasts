@@ -7,10 +7,10 @@ description: YouTube allows billions of people to discover, watch and share orig
   and advertisers large and small.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Broadcasts
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,18 +38,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-get-openapi.md
-- name: Youtube Parameters Live Broadcasts
-  x-api-slug: youtube
-  description: Parameters livebroadcasts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts
-  tags: Livebroadcasts
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-parameters-openapi.md
 - name: Youtube Add Live Broadcasts
   x-api-slug: youtube
   description: Creates a broadcast.
@@ -71,18 +59,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcasts-put-openapi.md
-- name: Youtube Parameters Live Broadcasts Bind
-  x-api-slug: youtube
-  description: Parameters livebroadcasts bind
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts/bind
-  tags: Livebroadcasts, Bind
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastsbind-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastsbind-parameters-openapi.md
 - name: Youtube Add Live Broadcasts Bind
   x-api-slug: youtube
   description: Binds a YouTube broadcast to a stream or removes an existing binding
@@ -97,18 +73,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastsbind-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastsbind-post-openapi.md
-- name: Youtube Parameters Live Broadcasts Control
-  x-api-slug: youtube
-  description: Parameters livebroadcasts control
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts/control
-  tags: Livebroadcasts, Control
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastscontrol-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastscontrol-parameters-openapi.md
 - name: Youtube Add Live Broadcasts Control
   x-api-slug: youtube
   description: Controls the settings for a slate that can be displayed in the broadcast
@@ -122,18 +86,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastscontrol-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcastscontrol-post-openapi.md
-- name: Youtube Parameters Live Broadcasts Transition
-  x-api-slug: youtube
-  description: Parameters livebroadcasts transition
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//liveBroadcasts/transition
-  tags: Livebroadcasts, Transition
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcaststransition-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/youtube/livebroadcaststransition-parameters-openapi.md
 - name: Youtube Add Live Broadcasts Transition
   x-api-slug: youtube
   description: Changes the status of a YouTube live broadcast and initiates any processes

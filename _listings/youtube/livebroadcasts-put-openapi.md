@@ -90,16 +90,6 @@ paths:
           description: OK
       tags:
       - Livebroadcasts
-    parameters:
-      summary: Parameters Live Broadcasts
-      description: Parameters livebroadcasts
-      operationId: parametersLivebroadcasts
-      x-api-path-slug: livebroadcasts-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
     post:
       summary: Add Live Broadcasts
       description: Creates a broadcast.

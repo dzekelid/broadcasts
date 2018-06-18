@@ -4,7 +4,7 @@ x-collection-name: YouTube
 x-complete: 1
 info:
   title: YouTube
-  description: youtube-allows-users-to-upload-view-rate-share-add-to-favorites-report-comment-on-videos-and-subscribe-to-other-users-it-offers-a-wide-variety-of-usergenerated-and-corporate-media-videos-available-content-includes-video-clips-tv-show-clips-music-videos-short-and-documentary-films-audio-recordings-movie-trailers-live-streams-and-other-content-such-as-video-blogging-short-original-videos-and-educational-videos-most-of-the-content-on-youtube-is-uploaded-by-individuals-but-media-corporations-including-cbs-the-bbc-vevo-and-hulu-offer-some-of-their-material-via-youtube-as-part-of-the-youtube-partnership-program-unregistered-users-can-only-watch-videos-on-the-site-while-registered-users-are-permitted-to-upload-an-unlimited-number-of-videos-and-add-comments-to-videos
+  description: youtube-allows-users-to-upload-view-rate-share-add-to-favorites-report-comment-on-videos-and-subscribe-to-other-users--it-offers-a-wide-variety-of-usergenerated-and-corporate-media-videos--available-content-includes-video-clips-tv-show-clips-music-videos-short-and-documentary-films-audio-recordings-movie-trailers-live-streams-and-other-content-such-as-video-blogging-short-original-videos-and-educational-videos--most-of-the-content-on-youtube-is-uploaded-by-individuals-but-media-corporations-including-cbs-the-bbc-vevo-and-hulu-offer-some-of-their-material-via-youtube-as-part-of-the-youtube-partnership-program--unregistered-users-can-only-watch-videos-on-the-site-while-registered-users-are-permitted-to-upload-an-unlimited-number-of-videos-and-add-comments-to-videos-
   termsOfService: https://developers.google.com/terms/
   contact:
     name: Google
@@ -89,16 +89,6 @@ paths:
           description: OK
       tags:
       - Livebroadcasts
-    parameters:
-      summary: Parameters Live Broadcasts
-      description: Parameters livebroadcasts
-      operationId: parametersLivebroadcasts
-      x-api-path-slug: livebroadcasts-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
     post:
       summary: Add Live Broadcasts
       description: Creates a broadcast.
@@ -151,17 +141,6 @@ paths:
       tags:
       - Livebroadcasts
   /liveBroadcasts/bind:
-    parameters:
-      summary: Parameters Live Broadcasts Bind
-      description: Parameters livebroadcasts bind
-      operationId: parametersLivebroadcastsBind
-      x-api-path-slug: livebroadcastsbind-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
-      - Bind
     post:
       summary: Add Live Broadcasts Bind
       description: Binds a YouTube broadcast to a stream or removes an existing binding
@@ -196,17 +175,6 @@ paths:
       - Livebroadcasts
       - Bind
   /liveBroadcasts/control:
-    parameters:
-      summary: Parameters Live Broadcasts Control
-      description: Parameters livebroadcasts control
-      operationId: parametersLivebroadcastsControl
-      x-api-path-slug: livebroadcastscontrol-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
-      - Control
     post:
       summary: Add Live Broadcasts Control
       description: Controls the settings for a slate that can be displayed in the
@@ -248,17 +216,6 @@ paths:
       - Livebroadcasts
       - Control
   /liveBroadcasts/transition:
-    parameters:
-      summary: Parameters Live Broadcasts Transition
-      description: Parameters livebroadcasts transition
-      operationId: parametersLivebroadcastsTransition
-      x-api-path-slug: livebroadcaststransition-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Livebroadcasts
-      - Transition
     post:
       summary: Add Live Broadcasts Transition
       description: Changes the status of a YouTube live broadcast and initiates any
