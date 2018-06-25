@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-call
 x-kinRank: "9"
 x-alexaRank: "129466"
 tags: Broadcasts
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
 apis:
