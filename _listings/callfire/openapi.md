@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: CallFire
 x-complete: 1
@@ -629,4 +628,3 @@ paths:
       - Texts
       - Broadcasts
       - Texts
----

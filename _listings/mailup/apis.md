@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1022-mailu
 x-kinRank: "7"
 x-alexaRank: "150566"
 tags: Broadcasts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/mailup/apis.md
 specificationVersion: "0.14"
 apis: []

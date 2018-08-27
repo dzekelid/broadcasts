@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-a
 x-kinRank: "8"
 x-alexaRank: "79571"
 tags: Broadcasts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
@@ -72,6 +72,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/urban-airship/airmailsendbroadcast-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/urban-airship/airmailsendbroadcast-post-openapi.md
+- name: Urban Airship - Post Airmail Send Broadcast
+  x-api-slug: airmailsendbroadcast-post
+  description: Sends a message to all users (broadcast). Only message is required.
+    The message will be sent out to every registered user. Badge numbers will be handled
+    automatically as long as the push key is present.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/urban-airship/airmailsendbroadcast-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/urban-airship/airmailsendbroadcast-post-openapi.md
+- name: Urban Airship - Post Push Broadcast
+  x-api-slug: pushbroadcast-post
+  description: 'Sends a push message to all active APIDs (Broadcast). Important: The
+    maximum message size is 1024 bytes. This is calculated as the UTF-8 lengths of
+    alert and extra fields together.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/urban-airship/pushbroadcast-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/broadcasts/master/_listings/urban-airship/pushbroadcast-post-openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/
